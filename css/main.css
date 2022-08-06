@@ -116,6 +116,7 @@ body {
     border-radius: 10px;
   }
   .navbar__open {
+    z-index: 9;
     display: block;
   }
   .sayt-nav {
@@ -679,6 +680,7 @@ body {
 
 .footer__text {
   text-decoration: none;
+  display: block;
   margin-top: 10px;
   font-family: "Poppins";
   font-style: normal;

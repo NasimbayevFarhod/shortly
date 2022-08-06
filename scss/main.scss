@@ -129,6 +129,7 @@ body
 
   .navbar__open
   {
+    z-index: 9;
     display: block;
   }
 
@@ -746,6 +747,7 @@ body
   margin-right: 100px;
 }
 
+
 .footer__wrapper:not(:last-child)
 {
   margin-right: 80px;
@@ -763,6 +765,7 @@ body
 }
 .footer__text {
   text-decoration: none;
+  display: block;
   margin-top: 10px;
   font-family: 'Poppins';
   font-style: normal;
