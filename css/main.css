@@ -626,6 +626,7 @@ body {
 }
 
 .links__title {
+  margin-bottom: 34px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
@@ -636,6 +637,11 @@ body {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 850px) {
+  .links__title {
+    margin-bottom: 16px;
+  }
+}
 .site-footer {
   padding: 72px 0;
   background-color: #232127;
